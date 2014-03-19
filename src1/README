@@ -1,0 +1,17 @@
+Pour compiler les programmes demandés dans le DM, faire:
+  'make exec'
+  
+Cela crée deux programmes 'AlgoNaif' et 'AlgoBooth' dont les codes sources sont dans les fichiers 'AlgoNaif.c' et 'AlgoBooth.c'
+La syntaxe pour lancer ces programmes est par exemple:
+  './AlgoNaif 654'
+pour générer un programme calculant la multiplication par 645. Idem pour 'AlgoBooth'.
+
+Les codes sources des programmes générés sont dans les fichiers 'MultNaif.c' et 'MultBooth.c'. Pour les compiler:
+  'make naif' compile MultNaif
+  'make booth' compile MultBooth
+  'make gen' compile les deux
+
+La syntaxe pour lancer ces programmes est par exemple:
+  './MultNaif 79'
+pour générer un programme calculant la multiplication de M par 79. Le résultat de la multiplication est affiché. Idem pour 'MultBooth'.
+
